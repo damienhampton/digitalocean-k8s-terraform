@@ -17,7 +17,7 @@ apply(){
 }
 
 kubeconfig(){
-  doctl kubernetes cluster kubeconfig save $CLUSTER
+  doctl kubernetes cluster kubeconfig save brains
 }
 
 ip(){
